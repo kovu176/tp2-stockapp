@@ -7,14 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StockApp.Infra.Data.EntityConfiguration
+namespace StockApp.Infra.Data.EntityConfiguration;
+
+public class CategoryConfiguration : IEntityTypeConfiguration<Category>
 {
-    public class CategoryConfiguration : IEntityTypeConfiguration<Category>
+    public void Configure(EntityTypeBuilder<Category> builder)
     {
-        public void Configure(EntityTypeBuilder<Category> builder)
-        {
-            builder.HasKey(t => t.Id);
-            builder.Property(t => t.Name).HasMaxLength(100).IsRequired();
-        }
+        builder.HasKey(t => t.Id);
+        builder.Property(p => p.Name).HasMaxLength(100).IsRequired();
     }
 }

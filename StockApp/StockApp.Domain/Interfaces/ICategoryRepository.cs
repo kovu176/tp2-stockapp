@@ -5,16 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StockApp.Domain.Interfaces
+namespace StockApp.Domain.Interfaces;
+
+public interface ICategoryRepository
 {
-    public interface ICategoryRepository
-    {
-        Task<IEnumerable<Category>> GetCategories();
+    Task<IEnumerable<Category>> GetCategory();
+    Task<Category> GetById();
+    Task<Category> Create(Category category);
+    Task<Category> Update(Category category);
+    Task<Category> Remove(Category category);
 
-        Task<Category> GetById(int? id);
-
-        Task<Category> Create(Category category);
-        Task<Category> Update(Category category);
-        Task <Category> Remove(Category category);
-    }
 }

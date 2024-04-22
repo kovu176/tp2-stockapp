@@ -27,7 +27,11 @@ namespace StockApp.Domain.Entities
             Id = id;
             ValidateDomain(name);
         }
-        
+
+        public Category()
+        {
+        }
+
         public ICollection<Product> Products { get; set; }
         #endregion
 

@@ -1,9 +1,9 @@
-﻿using HelperStockBeta.Domain.Entities;
-using HelperStockBeta.Domain.Interface;
-using HelperStockBeta.Infra.Data.Context;
+﻿using StockApp.Domain.Entities;
+using StockApp.Domain.Interfaces;
+using StockApp.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace HelperStockBeta.Infra.Data.Repositories
+namespace StockApp.Infra.Data.Repositories
 {
     public class ProductRepository : IProductRepository
     {
@@ -13,37 +13,31 @@ namespace HelperStockBeta.Infra.Data.Repositories
             _productContext = context;
         }
 
-        public async Task<Product> CreateAsync(Product product)
+        public async Task<Product> Create(Product product)
         {
             _productContext.Add(product);
             await _productContext.SaveChangesAsync();
             return product;
         }
 
-        public async Task<Product> GetByIdAsync(int? id)
+        public async Task<Product> GetById(int? id)
         {
             return await _productContext.Products.FindAsync(id);
         }
 
-        public async Task<Product> GetProductCategoryAsync(int? id)
-        {
-            return await _productContext.Products.Include(c => c.Category)
-                .SingleOrDefaultAsync(p => p.Id == id);
-        }
-
-        public async Task<IEnumerable<Product>> GetProductsAsync()
+        public async Task<IEnumerable<Product>> GetProducts()
         {
             return await _productContext.Products.ToListAsync();
         }
 
-        public async Task<Product> RemoveAsync(Product product)
+        public async Task<Product> Remove(Product product)
         {
             _productContext.Remove(product);
             await _productContext.SaveChangesAsync();
             return product;
         }
 
-        public async Task<Product> UpdateAsync(Product product)
+        public async Task<Product> Update(Product product)
         {
             _productContext.Update(product);
             await _productContext.SaveChangesAsync();

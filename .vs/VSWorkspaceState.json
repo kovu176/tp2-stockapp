@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StockApp"
   ],
-  "SelectedNode": "\\StockApp.sln",
+  "SelectedNode": "\\StockApp\\StockApp.sln",
   "PreviewInSolutionExplorer": false
 }

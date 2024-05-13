@@ -16,6 +16,14 @@
           "StockApp.Infra.IoC.dll": {}
         }
       },
+      "Humanizer.Core/2.8.26": {
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.26.1919"
+          }
+        }
+      },
       "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Data.SqlClient/2.1.7": {
         "dependencies": {
@@ -101,6 +109,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/6.0.28": {},
+      "Microsoft.EntityFrameworkCore.Design/6.0.28": {
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.28"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "6.0.28.0",
+            "fileVersion": "6.0.2824.11604"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.28": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.28",
@@ -479,6 +499,7 @@
       },
       "StockApp.Infra.Data/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "6.0.28",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.28",
           "StockApp.Domain": "1.0.0"
         },
@@ -493,6 +514,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Humanizer.Core/2.8.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "path": "humanizer.core/2.8.26",
+      "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -535,6 +563,13 @@
       "sha512": "sha512-9Y6RC2WMVvNGkhUEcxQGTpYgoebuoIm63acQYEzFVqxZeN9el47aXnypW5JJW3L7/tBkGMvDcQ8hG4t+SJmpHg==",
       "path": "microsoft.entityframeworkcore.analyzers/6.0.28",
       "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.28.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Design/6.0.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jTWhwaLuLnt9K7aEZqp1objkK6xNHx2iYi2vqqyDNigw4u1mo1udy76MJMAsPPf9lDB5ZJQQrrRe+Tery4HDwQ==",
+      "path": "microsoft.entityframeworkcore.design/6.0.28",
+      "hashPath": "microsoft.entityframeworkcore.design.6.0.28.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.28": {
       "type": "package",

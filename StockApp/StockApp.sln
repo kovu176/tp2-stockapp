@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.Infra.IoC", "Stock
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.WebUI", "StockApp.WebUI\StockApp.WebUI.csproj", "{25467ACD-7196-47BD-B0F7-02BC04D13F37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.Domain.Test", "StockApp.Domain.Test\StockApp.Domain.Test.csproj", "{15ED3BE1-0BEB-4080-832F-73475B21D5EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.Domain.Test", "StockApp.Domain.Test\StockApp.Domain.Test.csproj", "{15ED3BE1-0BEB-4080-832F-73475B21D5EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.API", "StockApp.API\StockApp.API.csproj", "{5564572A-CAA8-4E91-9786-53AA90D9BB57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{15ED3BE1-0BEB-4080-832F-73475B21D5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15ED3BE1-0BEB-4080-832F-73475B21D5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15ED3BE1-0BEB-4080-832F-73475B21D5EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5564572A-CAA8-4E91-9786-53AA90D9BB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5564572A-CAA8-4E91-9786-53AA90D9BB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5564572A-CAA8-4E91-9786-53AA90D9BB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5564572A-CAA8-4E91-9786-53AA90D9BB57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

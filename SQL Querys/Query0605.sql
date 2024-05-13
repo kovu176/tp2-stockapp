@@ -1,0 +1,1 @@
+create database stockapp_db_icoma;

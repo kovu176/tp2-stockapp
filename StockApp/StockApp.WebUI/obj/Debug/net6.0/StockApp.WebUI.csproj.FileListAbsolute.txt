@@ -74,3 +74,13 @@ C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\runtimes\win\lib\net
 C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\Humanizer.dll
 C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\AutoMapper.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\MediatR.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\tp\tp2-stockapp\StockApp\StockApp.WebUI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

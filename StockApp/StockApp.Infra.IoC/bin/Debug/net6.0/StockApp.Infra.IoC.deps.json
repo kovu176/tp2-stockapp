@@ -416,6 +416,11 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.28": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "6.0.28"
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
@@ -893,6 +898,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.5",
           "Microsoft.EntityFrameworkCore.Design": "6.0.28",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.28",
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.28",
           "StockApp.Domain": "1.0.0"
         },
         "runtime": {
@@ -1130,6 +1136,13 @@
       "sha512": "sha512-spwNd7VBXh7UAeY0Ua88SlD51xYCnmHrfzcDBZDXYjHU3I6C0kDtqdzfnYJCpVG56CQa2sA1mI+SWAPOwNZ5AA==",
       "path": "microsoft.entityframeworkcore.sqlserver/6.0.28",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.28.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/6.0.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TTZONr3M/1Ckce9yZfyJ5+cxMWqBjbDaYGEKZGP2SI73D1sSLJTySwt8lni8w6Tf+CtoZSxpoGDi3ni4l8SeCA==",
+      "path": "microsoft.entityframeworkcore.tools/6.0.28",
+      "hashPath": "microsoft.entityframeworkcore.tools.6.0.28.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
       "type": "package",

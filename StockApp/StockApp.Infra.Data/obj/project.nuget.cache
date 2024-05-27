@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NZwZtD9PoIExD/FqG5eOXTEzmgnwtzBn8brJ+OcHiy5krwpceisTvHkMt7jwcFvwAhGaEEjO1NnwQN5CcBeXfw==",
+  "dgSpecHash": "RL31QrfG3oWG5wi9SZumR2V7MNOFrssX3B+6Ypvnbd3Z1Fk91fMBAOVMVgzTMFEaTPinupvg34PbwuK2xTTPJA==",
   "success": true,
   "projectFilePath": "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\StockApp.Infra.Data.csproj",
   "expectedPackageFiles": [

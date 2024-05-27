@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3Ua6mI+raM0ldU3TDgNf8LeXn4aagBgCqexmwKu/EAWVlArpNxYQlPNT7Qqt7XF1kF/XlrZHlRkdeYF18s4fSw==",
+  "dgSpecHash": "MrAeCpmGLnbLOhzHIE0bTakTKcVYxqIwX9/ccHOUbhg23Ml32o//kR3S24aRmZweAYTz5ZbcgXFP7URqyjQf8Q==",
   "success": true,
   "projectFilePath": "C:\\tp\\tp2-stockapp\\StockApp\\StockApp.Infra.IoC\\StockApp.Infra.IoC.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "C:\\Users\\victor.icoma\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.28\\microsoft.entityframeworkcore.design.6.0.28.nupkg.sha512",
     "C:\\Users\\victor.icoma\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.28\\microsoft.entityframeworkcore.relational.6.0.28.nupkg.sha512",
     "C:\\Users\\victor.icoma\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.28\\microsoft.entityframeworkcore.sqlserver.6.0.28.nupkg.sha512",
+    "C:\\Users\\victor.icoma\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.28\\microsoft.entityframeworkcore.tools.6.0.28.nupkg.sha512",
     "C:\\Users\\victor.icoma\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\victor.icoma\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\victor.icoma\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

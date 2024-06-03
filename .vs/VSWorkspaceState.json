@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\StockApp"
+    "\\StockApp",
+    "\\StockApp\\StockApp.Infra.Data"
   ],
   "SelectedNode": "\\StockApp\\StockApp.sln",
   "PreviewInSolutionExplorer": false

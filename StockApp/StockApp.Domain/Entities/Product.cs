@@ -19,10 +19,19 @@ namespace StockApp.Domain.Entities
         public int CategoryId { get; set; }
         #endregion
 
-        public Product()
+        public Product(string name, string description, decimal price, int stock, string image)
         {
-
+            ValidateDomain(name, description, price, stock, image);
         }
+
+        public Product(int id, string name, string description, decimal price, int stock, string image)
+        {
+            DomainExceptionValidation.When(id < 0, "Update Invalid Id value");
+            Id= id;
+            ValidateDomain(name, description, price, stock, image);
+        }
+
+
 
         public Category Category { get; set; }
 
